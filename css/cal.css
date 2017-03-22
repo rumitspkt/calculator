@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin: auto;
+  max-width: 1000px;
+  min-height: 800px;
+
+}
+
+h1 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.calculator {
+  margin: auto;
+  width: 318px;
+  height: 563px;
+  border: 1px solid black;
+}
+
+p#screen {
+  height: 87.5px;
+  background-color: #4f4a4a;
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  text-align: right;
+  padding: 20px 0px;
+}
+
+button:not(#number0) {
+  height: 78.75px;
+  width: 78.75px;
+}
+
+.clear {
+  clear: both;
+}
+
+button#number0 {
+  height: 78.75px;
+  width: 236.25px;
+}
+
+button {
+  float: left;
+  border: 0.25px solid #222222;
+  font-size: 20px;
+}
+
+button.main-btn {
+  background-color: #db7c18;
+}
+
+button.number {
+  background-color: white;
+}
+
+button:hover {
+  background-color: #d2c179;
+}
+
+button:active {
+  background-color: #9d7b5c;
+}
